@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Table</title>
+</head>
+<body>
+<table border="5">
+<caption>Timetable</caption>
+<tr>
+<th>Day/Time</th>
+<th>9 am</th>
+<th>10 am</th>
+<th>11 am</th>
+<th>12 pm</th>
+<th>13 pm</th>
+</tr>
+<tr>
+<th>Monday</th>
+<td colspan="2">CIT212</td>
+<td>CIS 211</td>
+</tr>
+<tr>
+<th scope="row">Tuesday</th>
+<td colspan="2">CIM 212</td>
+<td>CIM213</td>
+</tr>
+<tr>
+<th scope="row">Wednesday</th>
+<td>CIM144</td>
+<td>CIM244</td>
+<td>CIM210</td>
+<td>CIT213</td>
+</tr>
+<tr>
+<th scope="row">Thursday</th>
+<td>CIM144</td>
+<td>CIM244</td>
+<td>CIM210</td>
+<td>CIT213</td>
+</tr>
+<tr>
+<th scope="row">Friday</th>
+<td colspan="2">CIM 212</td>
+<td>CIM144</td>
+<td>CIS210</td>
+<td>CIT213</td>
+</tr>
+</table>
+</body>
+</html>
