@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <style>
+        /* General Page Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #222;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff9800;
+        }
+
+        /* Section Titles */
+        h2 {
+            color: #444;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* Products Table */
+        .products {
+            padding: 20px;
+        }
+
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+            background: white;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background: #ff9800;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+
+        /* Offers + Benefits Sections */
+        .offers, .benefits {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+
+        /* Footer */
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header>
+        <h1>Fashion Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Products Table -->
+    <section class="products">
+        <h2>Our Latest Fashion Items</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Size</th>
+                    <th>Color</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Casual T-Shirt</td>
+                    <td>$15</td>
+                    <td>M</td>
+                    <td>Blue</td>
+                    <td>Comfortable cotton t-shirt perfect for everyday wear.</td>
+                </tr>
+                <tr>
+                    <td>Denim Jacket</td>
+                    <td>$45</td>
+                    <td>L</td>
+                    <td>Black</td>
+                    <td>Trendy jacket suitable for all seasons.</td>
+                </tr>
+                <tr>
+                    <td>Sneakers</td>
+                    <td>$60</td>
+                    <td>42</td>
+                    <td>White</td>
+                    <td>Stylish sneakers with great comfort for long walks.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Sale Offers -->
+    <section class="offers">
+        <h2>Upcoming Sale Offers</h2>
+        <p>Get up to <strong>30% OFF</strong> on all jackets this October!</p>
+        <p>Buy 1 pair of sneakers and get socks FREE!</p>
+    </section>
+
+    <!-- Benefits -->
+    <section class="benefits">
+        <h2>Why Shop With Us?</h2>
+        <ul>
+            <li>✅ Affordable and stylish fashion.</li>
+            <li>✅ Fast delivery across the country.</li>
+            <li>✅ Easy returns within 14 days.</li>
+            <li>✅ Secure payment options.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Fashion Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
